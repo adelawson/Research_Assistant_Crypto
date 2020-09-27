@@ -46,10 +46,10 @@ def proth_prime_test(proth_number,max_testing_value=1000000):
     for a in range(1,(max_testing_value+1)):
         c= (a**((proth_number-1)//2))+1
         if c%proth_number==0:
-             print(" This proth number is a proth prime\n","Confirmed at a=",a)
+             print(" This proth number is a proth prime\n","proth theorem condition satisfied at a=",a)
              break
     else:
-        print(" This proth number is not a proth prime \n","There is no integer 'a' between 1 and",max_testing_value,"that satisfies the condition\n","You can try a higher max_testing_value")
+        print(" This proth number is not a proth prime \n","There is no integer 'a' between 1 and",max_testing_value,"that satisfies the proth theorem condition\n","You can try a higher max_testing_value")
 
 
     
