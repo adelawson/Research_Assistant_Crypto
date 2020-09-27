@@ -49,7 +49,7 @@ def proth_prime_test(proth_number,max_testing_value=1000000):
              print(" This proth number is a proth prime\n","Confirmed at a=",a)
              break
     else:
-        print(" This number is not a proth prime \n","There is no integer between 1 and",max_testing_value,"that satisfies the conditions\n","You can try a higher max_testing_value")
+        print(" This proth number is not a proth prime \n","There is no integer 'a' between 1 and",max_testing_value,"that satisfies the condition\n","You can try a higher max_testing_value")
 
 
     
